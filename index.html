@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>X6 Box Cricket | Coming Soon</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(circle at 50% 20%, #26351f 0%, #11150f 35%, #050605 75%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.container {
+  width: 100%;
+  max-width: 650px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 100px;
+  line-height: 0.9;
+  font-weight: 900;
+  letter-spacing: -8px;
+  color: #d7ff35;
+  text-shadow: 0 0 25px rgba(215,255,53,.25);
+}
+
+.box {
+  margin-top: 25px;
+  padding: 35px 25px;
+  border: 1px solid rgba(215,255,53,.35);
+  border-radius: 24px;
+  background: rgba(10,12,10,.78);
+  box-shadow: 0 15px 60px rgba(0,0,0,.55);
+}
+
+h1 {
+  margin: 0;
+  font-size: 42px;
+  letter-spacing: 5px;
+}
+
+.location {
+  margin-top: 10px;
+  color: #d7ff35;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.coming {
+  margin: 30px 0 10px;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.message {
+  color: #c7c7c7;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+.contact {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background: #151a14;
+  border: 1px solid #3c4935;
+  border-radius: 14px;
+  padding: 16px;
+  margin: 12px 0;
+  transition: .2s;
+}
+
+.contact:hover {
+  border-color: #d7ff35;
+  transform: translateY(-2px);
+}
+
+.contact strong {
+  display: block;
+  color: #d7ff35;
+  margin-bottom: 5px;
+}
+
+.qr {
+  margin: 28px auto 8px;
+  width: 180px;
+  height: 180px;
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.qr img {
+  width: 100%;
+  height: 100%;
+}
+
+.scan {
+  font-size: 13px;
+  color: #aaa;
+  letter-spacing: 1px;
+}
+
+.footer {
+  margin-top: 25px;
+  color: #777;
+  font-size: 12px;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 75px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .coming {
+    font-size: 23px;
+  }
+
+  .box {
+    padding: 30px 18px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo">X6</div>
+
+  <div class="box">
+
+    <h1>BOX CRICKET</h1>
+
+    <div class="location">
+      KORAL • ISLAMABAD
+    </div>
+
+    <div class="coming">
+      COMING SOON
+    </div>
+
+    <div class="message">
+      Something exciting is coming to Koral.<br>
+      Stay connected for the X6 launch.
+    </div>
+
+    <a class="contact"
+       href="https://wa.me/923312378666?text=Hi%2C%20I'm%20interested%20in%20X6%20Box%20Cricket.%20Please%20send%20me%20booking%20and%20launch%20information."
+       target="_blank">
+      <strong>WHATSAPP</strong>
+      +92 33 123 786 66
+    </a>
+
+    <a class="contact"
+       href="mailto:AlMunirGroup@gmail.com">
+      <strong>EMAIL</strong>
+      AlMunirGroup@gmail.com
+    </a>
+
+    <div class="qr">
+      <img
+        src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https%3A%2F%2Fwa.me%2F923312378666%3Ftext%3DHi%252C%2520I%2527m%2520interested%2520in%2520X6%2520Box%2520Cricket.%2520Please%2520send%2520me%2520booking%2520and%2520launch%2520information."
+        alt="WhatsApp QR Code">
+    </div>
+
+    <div class="scan">
+      SCAN TO WHATSAPP
+    </div>
+
+  </div>
+
+  <div class="footer">
+    X6 Box Cricket • Koral, Islamabad
+  </div>
+
+</div>
+
+</body>
+</html>

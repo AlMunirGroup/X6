@@ -3,13 +3,79 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>X6 The Cricket Box | Koral, Islamabad</title>
+
 <style>
-html,body{margin:0;padding:0;background:#000}
-img{display:block;width:100%;height:auto}
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+.page {
+    position: relative;
+    width: 100%;
+    max-width: 941px;
+    margin: 0 auto;
+}
+
+.page img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hotspot {
+    position: absolute;
+    display: block;
+    z-index: 10;
+}
+
+/* WhatsApp button */
+.whatsapp {
+    left: 4%;
+    top: 65.0%;
+    width: 38%;
+    height: 7.0%;
+}
+
+/* Email button */
+.email {
+    left: 59%;
+    top: 65.0%;
+    width: 38%;
+    height: 7.0%;
+}
 </style>
 </head>
+
 <body>
-<img src="x6-final.jpg" alt="X6 The Cricket Box — Koral, Islamabad — Coming Soon">
+
+<div class="page">
+
+    <img
+        src="x6-mobile.png"
+        alt="X6 The Cricket Box — Koral, Islamabad — Coming Soon"
+    >
+
+    <!-- WhatsApp -->
+    <a
+        class="hotspot whatsapp"
+        href="https://wa.me/923312378666"
+        aria-label="WhatsApp X6 The Cricket Box"
+        target="_blank"
+        rel="noopener noreferrer"
+    ></a>
+
+    <!-- Email -->
+    <a
+        class="hotspot email"
+        href="mailto:AlMunirGroup@gmail.com"
+        aria-label="Email X6 The Cricket Box"
+    ></a>
+
+</div>
+
 </body>
 </html>
